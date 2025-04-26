@@ -11,11 +11,11 @@ import {
   awards,
   skillsCategories,
   links,
-} from './data/resume';
+} from '@/app/data/resume';
+import Navbar from "@/app/components/Navbar";
+import Section from "@/app/components/Section";
+import TimelineItem from "@/app/components/TimelineItem";
 
-import Navbar from './components/Navbar';
-import Section from './components/Section';
-import TimelineItem from './components/TimelineItem';
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
