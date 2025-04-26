@@ -12,9 +12,9 @@ import {
   skillsCategories,
   links,
 } from '@/app/data/resume';
-import Navbar from "@/app/components/Navbar";
-import Section from "@/app/components/Section";
-import TimelineItem from "@/app/components/TimelineItem";
+import Navbar from "@/app/components/navbar";
+import Section from "@/app/components/section";
+import TimelineItem from "@/app/components/timelineitem";
 
 
 export default function Home() {
